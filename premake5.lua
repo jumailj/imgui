@@ -30,8 +30,8 @@ project "ImGui"
 
 	filter "configurations:Development"
 		runtime "Release"
-		optimize "On"
+		optimize "off"
 
 	filter "configurations:Ship"
 		runtime "Release"
-		optimize "On"
+		optimize "off"
